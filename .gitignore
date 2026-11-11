@@ -1,0 +1,14 @@
+# Secrets and personal data - never commit these
+.env
+history.json
+miniflow.log
+.miniflow.lock
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+*.app/
